@@ -1,6 +1,6 @@
 # Simple Hook for React Native AsyncStorage
 
-This package makes the use of Async Storage with React Native Project.
+This package makes the use of Async Storage easier with React Native Project via React Hooks.
 
 It provides you an easier way to update, remove and reach a storage key's value.
 
@@ -8,7 +8,7 @@ It provides you an easier way to update, remove and reach a storage key's value.
 
 You need to have **@react-native-async-storage/async-storage** in your React Native project.
 
-[For AsyncStorage documentation click here.] (https://github.com/react-native-async-storage/async-storage)
+[For AsyncStorage documentation click here.](https://github.com/react-native-async-storage/async-storage)
 
 ### Yarn
 
@@ -62,5 +62,5 @@ setStore(object) // update the storage with the new value.
 removeStore() // remove all items in the storage.
 ```
 
-[Give a star :) on GitHub] (https://github.com/ugenc/useStorage)
-[ugenc] (https://ugenc.com)
+[Give a star :) on GitHub](https://github.com/ugenc/useStorage)
+[ugenc](https://ugenc.com)
