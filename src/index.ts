@@ -1,1 +1,1 @@
-export { useCounter } from './hooks/useCounter/';
+export { useStorage } from './hooks/useStorage';
