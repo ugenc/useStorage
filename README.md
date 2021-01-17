@@ -26,19 +26,19 @@ npm i @ugenc/use-storage-hook
 
 First import the hook.
 
-```
- import { useStorage } from '@ugenc/use-storage-hook'
+```js
+import { useStorage } from '@ugenc/use-storage-hook'
 ```
 
 Inside your component call the hook.
 
-```
+```jsx
 import React from 'react'
 import { View, Text } from 'react-native'
 
 export default function index() {
 
-  const [storeValue, setStore, removeStore] = useStorage('@key'); //provide a storage key.
+  const [storeValue, setStore, removeStore] = useStorage('@key'); // provide a storage key.
 
     return (
         <View>
@@ -50,15 +50,15 @@ export default function index() {
 
 ```
 
-```
-console.log(storeValue) //value of the storage.
+```js
+console.log(storeValue) // value of the storage.
 ```
 
-```
+```js
 setStore(object) // update the storage with the new value.
 ```
 
-```
+```js
 removeStore() // remove all items in the storage.
 ```
 
