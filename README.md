@@ -46,8 +46,6 @@ export default function index() {
         </View>
     )
 }
-
-
 ```
 
 ```js
