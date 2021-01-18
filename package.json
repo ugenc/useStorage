@@ -1,21 +1,21 @@
 {
 	"name": "@ugenc/use-storage-hook",
-	"version": "2.0.1",
+	"version": "2.0.0",
 	"description": "A simple React Native Async Storage Hook",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
+	"peerDependencies": {
+		"@react-native-async-storage/async-storage": "^1.13.2"
+	},
 	"devDependencies": {
-		"@react-native-async-storage/async-storage": "^1.13.2",
 		"@types/jest": "^26.0.7",
 		"@types/react": "^16.3.13",
 		"@types/react-dom": "^16.0.5",
 		"babel-core": "^6.26.3",
 		"babel-runtime": "^6.26.0",
 		"eslint-plugin-react-hooks": "^4.0.8",
-		"react": "^16.12.0",
-		"react-dom": "^16.12.0",
 		"react-test-renderer": "^16.13.1",
 		"typescript": "^3.8.3"
 	},
