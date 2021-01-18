@@ -1,6 +1,6 @@
 {
 	"name": "@ugenc/use-storage-hook",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "A simple React Native Async Storage Hook",
 	"main": "index.js",
 	"scripts": {
