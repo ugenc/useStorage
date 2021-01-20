@@ -1,6 +1,6 @@
 {
 	"name": "@ugenc/use-storage-hook",
-	"version": "2.0.2",
+	"version": "2.0.3",
 	"description": "A simple React Native Async Storage Hook",
 	"main": "index.js",
 	"scripts": {
@@ -21,7 +21,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "@ugenc/useStorage"
+		"url": "https://github.com/ugenc/useStorage.git"
 	},
 	"keywords": [
 		"React",
